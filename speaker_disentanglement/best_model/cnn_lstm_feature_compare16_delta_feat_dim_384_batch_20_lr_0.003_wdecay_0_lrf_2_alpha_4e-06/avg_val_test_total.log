@@ -1,0 +1,52 @@
+###############################################################
+EXPERIMENT DETAILS
+FEATURE_EXP: compare16_delta
+CLASS_WEIGHTS: False
+USE_GENDER_WEIGHTS: False
+SUB_SAMPLE_ND_CLASS: True
+CROP: True
+OVERSAMPLE: False
+SPLIT_BY_GENDER: False
+FEATURE_DIMENSIONS: 384
+PRETRAIN_STEPS: 193
+PRETRAIN_DIMS: 512
+pretrained_layer: 13
+FREQ_BINS: 130
+BATCH_SIZE: 20
+SNV: True
+LEARNING_RATE: 0.003
+weight_decay: 0
+lrf: 2
+LOSS_ALPHA: 4e-06
+Starting SEED: 1000
+TOTAL_EPOCHS: 100
+TOTAL_ITERATIONS: 3280
+ITERATION_EPOCH: 1
+EXP_RUNTHROUGH: 5
+SUB_DIR: vijay/utterance/256_dim/compare16_delta_dist_cos_similarity/cnn_lstm_feature_compare16_delta_feat_dim_384_batch_20_lr_0.003_wdecay_0_lrf_2_alpha_4e-06
+Current Seed: 1000
+Logged into: SPAPL-Psychic
+Experiment details: 
+###############################################################
+The dimensions of the logmel features before segmentation are: [130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 130]
+The dimensions of the dev features are: (6223, 130, 384)
+The number of class zero files in the dev split after segmentation are 3695
+The number of class one files in the dev split after segmentation are 2528
+instance Weights: [1, 1]
+Time taken to evaluate dev: 211.43s
+Scores are: 
+[[ 0.72463768  0.7826087   0.66666667  0.72        0.8         0.64
+  18.          5.          4.          8.        ]
+ [ 0.66485507  0.91304348  0.41666667  0.6749226   0.82352941  0.52631579
+  21.          2.          7.          5.        ]
+ [ 0.55434783  0.60869565  0.5         0.54780362  0.65116279  0.44444444
+  14.          9.          6.          6.        ]
+ [ 0.78985507  0.91304348  0.66666667  0.80113636  0.875       0.72727273
+  21.          2.          4.          8.        ]
+ [ 0.55797101  0.7826087   0.33333333  0.55782313  0.73469388  0.38095238
+  18.          5.          8.          4.        ]]
+Average Scores Raw: 
+[ 0.65833333  0.8         0.51666667  0.66033714  0.77687722  0.54379707
+ 18.4         4.6         5.8         6.2       ]
+Test output Scores: [0.5778985507246377, 0.7391304347826086, 0.4166666666666667, 0.5790934320074006, 0.723404255319149, 0.43478260869565216, 17.0, 6.0, 7.0, 5.0]
+Using alpha 4e-06
