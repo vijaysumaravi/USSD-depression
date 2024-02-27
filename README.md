@@ -94,7 +94,7 @@ keywords = {Depression-detection, Speaker-disentanglement, Privacy}}
 }
 ```
 
-Previous Work - 
+other relevant work - 
 
 ```
 [5] Xingchen Ma, Hongyu Yang, Qiang Chen, Di Huang, and Yunhong Wang. 2016. DepAudioNet: An Efficient Deep Model for Audio based Depression Classification. In Proceedings of the 6th International Workshop on Audio/Visual Emotion Challenge (AVEC '16). Association for Computing Machinery, New York, NY, USA, 35–42. https://doi.org/10.1145/2988257.2988267
