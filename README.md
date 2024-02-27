@@ -20,19 +20,19 @@ To reproduce the best results using ComparE16 features and the LSTM-Only model a
     c. Run the majority voting test command to get predictions for audio modality using ComparE16 - `python3 main_total_fscore_dist.py test --validate --prediction_metric=2 --threshold=total`
 
 5. Text Model Data Preparation
-    a. Repeat the same Word2Vec data prep.  - 
+    a. Repeat the same Word2Vec data prep using the Daic-WOZ DepAudioNet framework.  
 
 6. Text Model Evaluation
-    a. Word2vec best model is saved here - https://drive.google.com/drive/folders/1nWSMS9NVmN4qmtug9WxmGYHevjaGeRSH?usp=sharing
+    a. Same as the Audio model, run the test command for the Word2vecmodel. The best model is saved in the same drive folder here - https://drive.google.com/drive/folders/1nWSMS9NVmN4qmtug9WxmGYHevjaGeRSH?usp=sharing
 
 7. Audio and Text Model Fusion
-    a. Fusion of Word2Vec and Compare16 to reproduce the best result can be done using the following script - 
+    a. Fusion of Word2Vec and Compare16 to reproduce the best result can be done using the following script - compare16_word2vec_fusion/text_fusion.ipynb
 
 
-If you found this repo useful, please consider citing our work  
+If you found this repo useful, please consider citing our work -  
 
 
-Cite as: Ravi, V., Wang, J., Flint, J., Alwan, A. (2022) A Step Towards Preserving Speakers’ Identity While Detecting Depression Via Speaker Disentanglement. Proc. Interspeech 2022, 3338-3342, doi: 10.21437/Interspeech.2022-10798
+1. Cite as: Ravi, V., Wang, J., Flint, J., Alwan, A. (2022) A Step Towards Preserving Speakers’ Identity While Detecting Depression Via Speaker Disentanglement. Proc. Interspeech 2022, 3338-3342, doi: 10.21437/Interspeech.2022-10798
 ```
 @inproceedings{ravi22_interspeech,
   author={Vijay Ravi and Jinhan Wang and Jonathan Flint and Abeer Alwan},
@@ -44,7 +44,7 @@ Cite as: Ravi, V., Wang, J., Flint, J., Alwan, A. (2022) A Step Towards Preservi
 }
 ```
 
-Cite as: Wang, J., Ravi, V., Alwan, A. (2023) Non-uniform Speaker Disentanglement For Depression Detection From Raw Speech Signals. Proc. INTERSPEECH 2023, 2343-2347, doi: 10.21437/Interspeech.2023-2101
+2. Cite as: Wang, J., Ravi, V., Alwan, A. (2023) Non-uniform Speaker Disentanglement For Depression Detection From Raw Speech Signals. Proc. INTERSPEECH 2023, 2343-2347, doi: 10.21437/Interspeech.2023-2101
 ```
 @inproceedings{wang23pa_interspeech,
   author={Jinhan Wang and Vijay Ravi and Abeer Alwan},
@@ -56,7 +56,7 @@ Cite as: Wang, J., Ravi, V., Alwan, A. (2023) Non-uniform Speaker Disentanglemen
 }
 ```
 
-Cite as: Vijay Ravi, Jinhan Wang, Jonathan Flint, Abeer Alwan, Enhancing accuracy and privacy in speech-based depression detection through speaker disentanglement, Computer Speech & Language, Volume 86, 2024, 101605, ISSN 0885-2308, https://doi.org/10.1016/j.csl.2023.101605.
+3. Cite as: Vijay Ravi, Jinhan Wang, Jonathan Flint, Abeer Alwan, Enhancing accuracy and privacy in speech-based depression detection through speaker disentanglement, Computer Speech & Language, Volume 86, 2024, 101605, ISSN 0885-2308, https://doi.org/10.1016/j.csl.2023.101605.
 ```
 @article{RAVI2024101605,
 title = {Enhancing accuracy and privacy in speech-based depression detection through speaker disentanglement},
@@ -71,7 +71,7 @@ author = {Vijay Ravi and Jinhan Wang and Jonathan Flint and Abeer Alwan},
 keywords = {Depression-detection, Speaker-disentanglement, Privacy}}
 ```
 
-Cite as: Ravi, V., Wang, J., Flint, J., Alwan, A. (2024) A Privacy-Preserving Unsupervised Speaker Disentanglement Method for Depression Detection from Speech
+4. Cite as: Ravi, V., Wang, J., Flint, J., Alwan, A. (2024) A Privacy-Preserving Unsupervised Speaker Disentanglement Method for Depression Detection from Speech
 ```
 @inproceedings{ravi24_ml4cmh_aaai,
   author={Vijay Ravi and Jinhan Wang and Jonathan Flint and Abeer Alwan},
@@ -80,3 +80,9 @@ Cite as: Ravi, V., Wang, J., Flint, J., Alwan, A. (2024) A Privacy-Preserving Un
   booktitle={Ml4CMH Workshop, AAAI, 2024}
 }
 ```
+
+Other relevant repositories which may be useful to understand this repository: 
+
+1. https://github.com/adbailey1/daic_woz_process
+2. https://github.com/adbailey1/DepAudioNet_reproduction
+3. https://github.com/kingformatty/NUSD
